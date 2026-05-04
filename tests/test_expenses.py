@@ -21,6 +21,10 @@ class TestExpenseService(unittest.TestCase):
         s.add_expense(e)
         s.delete_expense(1)
         self.assertEqual(len(s.expenses), 0)
+        
+    def test_empty(self):
+        service = ExpendeService()
+        self.assertEqual(service.get_total(),0)
 
 if __name__ == "__main__":
     unittest.main()
