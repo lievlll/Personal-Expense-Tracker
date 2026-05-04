@@ -20,7 +20,9 @@ Simple console-based expense tracker built with Python using MVC architecture.
 - Utilities (Stack, Queue)
 
 ## How to run
-python main.py
+1.download repository
+2.add the repository files to a new folder
+3. open the terminal in the folder and start using it
 
 ##Tests
-...
+python -m unittest tests/test_expenses.py
